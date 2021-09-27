@@ -35,7 +35,6 @@ def log_print(*args) -> None:
     print("###################################################")
     print("################## PRETTY LOGGER ##################")
     long_string = ""
-    #import ipdb;ipdb.set_trace()
     for a in args:
         long_string = long_string + " " + "".join(str(a))
     print(clean_log(long_string, 50))
